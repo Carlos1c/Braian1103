@@ -21,10 +21,10 @@ din.procesarsobres(sob4);
 let salida = document.getElementById("salida");
 
 salida.innerHTML=`
-El sobre Nº1 tiene: ${din.totales()} <br>
-El sobre Nº2 tiene: ${din.totales()} <br>
-El sobre Nº3 tiene: ${din.totales()} <br>
-El sobre Nº4 tiene: ${din.totales()} <br>
+El sobre Nº1 tiene: ${sob.totalDinero()} <br>
+El sobre Nº2 tiene: ${sob2.totalDinero()} <br>
+El sobre Nº3 tiene: ${sob3.totalDinero()} <br>
+El sobre Nº4 tiene: ${sob4.totalDinero()} <br>
 
 El total entre todos los sobres es de: ${din.sobres()}
 `
